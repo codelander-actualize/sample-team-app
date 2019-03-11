@@ -7,5 +7,6 @@ Rails.application.routes.draw do
     get "/mikes" => "mikes#index"
     get "/tests" => "tests#index"
     get "/sample" => "sample#index"
+    get "/halfpipe" => "halfpipe#index"
   end
 end
