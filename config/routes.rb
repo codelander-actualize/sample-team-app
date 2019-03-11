@@ -5,5 +5,6 @@ Rails.application.routes.draw do
     get "/test" => "test#index"
     get "/salads" => "salads#index"
     get "/mikes" => "mikes#index"
+    get "/tests" => "tests#index"
   end
 end
