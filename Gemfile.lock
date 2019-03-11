@@ -1,4 +1,4 @@
-GEM
+rails db:createGEM
   remote: https://rubygems.org/
   specs:
     actioncable (5.2.2)
