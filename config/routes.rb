@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
-  get "/pages" => "pages#index"
-  get "/sample" => "sample#index"
+  namespace :api do
+    get "/pages" => "pages#index"
+    get "/pages/:id" => "pages#show"
+    get "/test" => "test#index"
+    get "/salads" => "salads#index"
+    get "/mikes" => "mikes#index"
+    get "/tests" => "tests#index"
+    get "/sample" => "sample#index"
+  end
 end
